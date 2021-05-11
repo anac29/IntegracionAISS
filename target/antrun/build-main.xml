@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-antrun-" default="main">
   <target name="main">
+ Miguel
     <property name="target.webapp.dir" value="C:\Users\Miguel\git\IntegracionAISS\target/lab5-implementing-restapi-1.0-SNAPSHOT" />
     <property name="src.webapp.dir" value="C:\Users\Miguel\git\IntegracionAISS/src/main/webapp" />
+
+    <property name="target.webapp.dir" value="C:\Users\Jaime\git\IntegracionAISS\target/lab5-implementing-restapi-1.0-SNAPSHOT" />
+    <property name="src.webapp.dir" value="C:\Users\Jaime\git\IntegracionAISS/src/main/webapp" />
+ main
     <sync todir="${target.webapp.dir}" includeEmptyDirs="true" verbose="true">
       <fileset dir="${src.webapp.dir}" />
       <preserveintarget>
